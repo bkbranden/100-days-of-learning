@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: June 20, 2020
+### Day 1: June 20, 2020
 
 **Today's Progress**: Learned and took notes on the basics of the web, networks, and HTML
 
