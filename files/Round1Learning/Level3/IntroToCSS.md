@@ -1,5 +1,36 @@
 # CSS Basics
 
+<!-- TOC -->
+
+- [CSS Basics](#css-basics)
+    - [Introduction to CSS](#introduction-to-css)
+    - [Adding CSS to HTML page](#adding-css-to-html-page)
+    - [Selectors](#selectors)
+        - [Basic Selectors](#basic-selectors)
+        - [Combining Selectors](#combining-selectors)
+        - [Grouping Selectors](#grouping-selectors)
+        - [Selectors by following Document Tree Structure](#selectors-by-following-document-tree-structure)
+    - [Cascade](#cascade)
+    - [Specificity](#specificity)
+        - [Specificity Calculation](#specificity-calculation)
+    - [Inheritance](#inheritance)
+    - [Attribute Selectors](#attribute-selectors)
+    - [Pseudo Classes](#pseudo-classes)
+    - [Pseudo Elements](#pseudo-elements)
+    - [Colors](#colors)
+    - [Units](#units)
+        - [Pixels](#pixels)
+        - [Percentages](#percentages)
+        - [Relative Units](#relative-units)
+        - [Viewport Units](#viewport-units)
+        - [Fraction Units](#fraction-units)
+    - [URL()](#url)
+    - [Calc()](#calc)
+    - [Backgrounds](#backgrounds)
+    - [Comments](#comments)
+
+<!-- /TOC -->
+
 ## Introduction to CSS
 
 * CSS is used to style an HTML page and the corresponding elements
@@ -249,3 +280,164 @@ a:active {
 * Can write the CSS selector utilizing pseudo-classes to make sure that the CSS stays regardless of the element's state
 * :nth-child() is another option as it allows for targeting odd and even children
     * Often utilized to style lists such that the style is different for adjacent children
+
+## Pseudo Elements
+
+* Used to style a specific part of an element
+* Syntax starts with "::"
+* The most common one are "before" and "after" which allow you to add content before or after an element
+    * Most commonly used for adding things like icons
+    * Must specify the content property before inserting
+* Ex.
+```
+p::before {
+  content: url(/myimage.png);
+}
+
+.myElement::before {
+	content: "Hey Hey!";
+}
+```
+
+## Colors
+
+* Colors can be added to HTML elements through:
+    * color
+    * background-color
+    * border-color
+* There are different ways to set colors:
+    * Named colors - Something like "blue" that CSS has predefined to work when trying to set the color
+    * RGB / RGBA - allows you to pick the rgb and alpha value
+        * These values go from 0 - 255
+        * Ex. rgb(0, 0, 0) will be black
+        * The rgba() allows you to add transparency through the last channel
+    * Hexadecimal Notation - in the form of "#ffffff" or "#fff" 
+        * Express the numbers in 3 two digit numbers which range from 0 - 15 (0 - f)
+        * Can also add two extra digits for the alpha channel at the end
+    * HSL / HSLA - For hue, saturation, and lightness
+        * This is the same as RGB / RGBA but it is just in another format
+
+## Units
+
+* Units are standardized definitions in CSS that allow to easily set lengths, paddings, margins, etc.
+
+### Pixels
+
+* Pixels are the most widely utilized measurement unit
+* It doesn't exactly correspond to 1 exact pixel because of the difference in retinas of devices, but allows for a easy, standardized measurement
+* Ex.
+```
+p {
+    margin-top: 20px;
+}
+```
+
+### Percentages
+
+* Percentages allow you to define properties based on the parent's value
+```
+.parent {
+    width: 400px
+}
+.child {
+    width: 50%; /* = 200px */
+}
+```
+
+### Relative Units
+
+* Commonly used are relative units that are relative to a font-size
+* "em" is the value assigned to that element's font-size
+* "rem" is the same as "em" but it measures the root element's font-size
+    * Allows for consistency across the entire document
+
+### Viewport Units
+
+* "vw" is the viewport width which takes a percentage of the viewport width
+    * Ex. 50vw means 50% of the viewport width
+* "vh" is the viewport height which takes a percentage of the viewport height
+* "vmin" is the viewport minimum that represents the minimum between the height and width in terms of percentage
+    * Ex. 30vmin is the 30% of the current width or height, whatever is smaller
+* "vmax" is the same as "vmin" just maximum
+* Viewport units are not inherited, meaning to set the height based on a viewport percentage, the parent's height does not need to be specified
+
+### Fraction Units
+
+* "fr" are fraction units that are utilized in CSS Grids to divide space into fractions
+
+## URL()
+
+* URLs are used to load resources such as images, gifs, mp4s, sound, etc.
+* Ex.
+```
+div {
+    background-image: url(test.png);
+}
+```
+* The url provided can be a relative URL, external absolute URL, or can find from the root of the domain of the CSS
+
+## Calc()
+
+* calc() function allows for performing basic math operations on values
+    * Especially useful for adding or subtracting a length from a percentage
+    * Ex.
+    ```
+    div {
+        max-width: calc(80% - 100px)
+    }
+    ```
+* Returns a "length" value so it can be used anywhere that expects a pixel value
+* Ex.
+
+<style>
+    .calc {
+        background-color: cyan;
+        width: calc(80% - 200px);
+    }
+</style>
+
+<p class="calc">
+    Width of element defined using the calc() function
+</p>
+
+## Backgrounds
+
+* Backgrounds of elements can be set with numerous properties
+* Most popular are:
+    * background-color
+    * background-image
+    * background-attachment
+    * background-size
+    * background-repeat
+* Ex.
+
+<style>
+    .background-example {
+        background: linear-gradient(#ffffff, #F3F333);
+        width: 100%;
+        height: 100px;
+    }
+</style>
+
+<p class="background-example">
+    Background example with linear gradient
+</p>
+
+## Comments
+
+* For commenting in CSS, only block comments are allowed
+* The syntax is ```/*...*/```
+* Ex.
+```
+#name { display: block; } /* Nice rule! */
+
+/* #name { display: block; } */
+
+#name {
+	display: block; /*
+	color: red;
+	*/
+}
+```
+* Helps since this allowed you to comment out multiple lines until ```*/``` is reached
+* CSS doesn't have inline comments so only block comments can be used

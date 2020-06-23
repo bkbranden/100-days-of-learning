@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/lib/index.min.js">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath@0.6.5/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head>
+<body class="markdown-body">
+<h1 id="more-css-2" data-line="0" class="code-line">More CSS</h1>
+<h2 id="box-model-2" data-line="2" class="code-line">Box Model</h2>
+<ul>
+<li data-line="4" class="code-line">In HTML and CSS, every element is essentially a box</li>
+<li data-line="5" class="code-line">The box model explains how elements are presented and manipulated in CSS</li>
+<li data-line="6" class="code-line">There are 4 areas in the CSS box model
+<ul>
+<li data-line="7" class="code-line">From inside to outside</li>
+</ul>
+<ol>
+<li data-line="8" class="code-line">Content Area</li>
+<li data-line="9" class="code-line">Padding Area</li>
+<li data-line="10" class="code-line">Border Area</li>
+<li data-line="11" class="code-line">Margin Area</li>
+</ol>
+</li>
+<li data-line="12" class="code-line">Ex.</li>
+</ul>
+<p data-line="14" class="code-line"><img src="resources/BoxModel.png" alt="Box Model Image" title="Box Model" class="loading" id="image-hash-46c5c0b893c20275f0b3c2ee2efe79cc30480468d3b0eca78bea72fa0f7aafc9"></p>
+<ul>
+<li data-line="16" class="code-line">Setting width or height sets the content area not the padding, border, or margin areas</li>
+</ul>
+<h2 id="border-2" data-line="18" class="code-line">Border</h2>
+<ul>
+<li data-line="20" class="code-line">The border is the thin area between the padding and margin</li>
+<li data-line="21" class="code-line">Essentially, editing this area allows for editing the perimeter of the element</li>
+<li data-line="22" class="code-line">Can work on borders using these properties:
+<ol>
+<li data-line="23" class="code-line">border-style</li>
+<li data-line="24" class="code-line">border-color</li>
+<li data-line="25" class="code-line">border-width</li>
+<li data-line="26" class="code-line">border-radius</li>
+</ol>
+</li>
+<li data-line="27" class="code-line">Can set images for borders with border-image</li>
+</ul>
+<h3 id="border-style-2" data-line="29" class="code-line">Border-style</h3>
+<ul>
+<li data-line="31" class="code-line"><strong>border-style</strong> property allows for picking the style of border
+<ul>
+<li data-line="32" class="code-line">Ex.
+<ul>
+<li data-line="33" class="code-line">dotted</li>
+<li data-line="34" class="code-line">dashed</li>
+<li data-line="35" class="code-line">solid</li>
+<li data-line="36" class="code-line">double</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p data-line="38" class="code-line"><img src="resources/Borders.png" alt="Borders Image" title="Border styles" class="loading" id="image-hash-d3da33511e52beab10fd65f27787defc5b7d994923207d2d4e5583af0b1a5c85"></p>
+<h3 id="border-width-2" data-line="40" class="code-line">Border-width</h3>
+<ul>
+<li data-line="42" class="code-line"><strong>border-width</strong> allows for specifying the width of hte lines of the border
+<ul>
+<li data-line="43" class="code-line">word values are:
+<ul>
+<li data-line="44" class="code-line">thin</li>
+<li data-line="45" class="code-line">medium</li>
+<li data-line="46" class="code-line">thick</li>
+</ul>
+</li>
+<li data-line="47" class="code-line">length values using &quot;em&quot; or &quot;px&quot; can also be used</li>
+</ul>
+</li>
+</ul>
+<h3 id="border-color-2" data-line="49" class="code-line">Border-color</h3>
+<ul>
+<li data-line="51" class="code-line"><strong>border-color</strong> is utilized to set the color of the border</li>
+<li data-line="52" class="code-line">Default color is the element's text color</li>
+</ul>
+<h3 id="border-radius-2" data-line="54" class="code-line">Border-radius</h3>
+<ul>
+<li data-line="56" class="code-line">
+<p data-line="56" class="code-line"><strong>border-radius</strong> is used to set rounded corners in the border</p>
+</li>
+<li data-line="57" class="code-line">
+<p data-line="57" class="code-line">Value that is passed is the radius of the circle on the corners used to round the border</p>
+</li>
+<li data-line="59" class="code-line">
+<p data-line="59" class="code-line">Ex.</p>
+</li>
+</ul>
+<style>
+    .border {
+        width: 100%;
+        height: 100px;
+        border-style: dotted solid dashed double;
+        border-radius: 10px;
+        border-color: red;
+    }
+</style>
+<p class="border">
+    Border example with border-radius, border-width, border style, and border-color
+</p>
+</body></html>
