@@ -10,8 +10,8 @@
 
 </head>
 <body class="markdown-body">
-<h1 id="more-css-2" data-line="0" class="code-line">More CSS</h1>
-<h2 id="box-model-2" data-line="2" class="code-line">Box Model</h2>
+<h1 id="more-css-1" data-line="0" class="code-line">More CSS</h1>
+<h2 id="box-model-1" data-line="2" class="code-line">Box Model</h2>
 <ul>
 <li data-line="4" class="code-line">In HTML and CSS, every element is essentially a box</li>
 <li data-line="5" class="code-line">The box model explains how elements are presented and manipulated in CSS</li>
@@ -32,7 +32,7 @@
 <ul>
 <li data-line="16" class="code-line">Setting width or height sets the content area not the padding, border, or margin areas</li>
 </ul>
-<h2 id="border-2" data-line="18" class="code-line">Border</h2>
+<h2 id="border-1" data-line="18" class="code-line">Border</h2>
 <ul>
 <li data-line="20" class="code-line">The border is the thin area between the padding and margin</li>
 <li data-line="21" class="code-line">Essentially, editing this area allows for editing the perimeter of the element</li>
@@ -46,7 +46,7 @@
 </li>
 <li data-line="27" class="code-line">Can set images for borders with border-image</li>
 </ul>
-<h3 id="border-style-2" data-line="29" class="code-line">Border-style</h3>
+<h3 id="border-style-1" data-line="29" class="code-line">Border-style</h3>
 <ul>
 <li data-line="31" class="code-line"><strong>border-style</strong> property allows for picking the style of border
 <ul>
@@ -62,7 +62,7 @@
 </li>
 </ul>
 <p data-line="38" class="code-line"><img src="resources/Borders.png" alt="Borders Image" title="Border styles" class="loading" id="image-hash-d3da33511e52beab10fd65f27787defc5b7d994923207d2d4e5583af0b1a5c85"></p>
-<h3 id="border-width-2" data-line="40" class="code-line">Border-width</h3>
+<h3 id="border-width-1" data-line="40" class="code-line">Border-width</h3>
 <ul>
 <li data-line="42" class="code-line"><strong>border-width</strong> allows for specifying the width of hte lines of the border
 <ul>
@@ -77,12 +77,12 @@
 </ul>
 </li>
 </ul>
-<h3 id="border-color-2" data-line="49" class="code-line">Border-color</h3>
+<h3 id="border-color-1" data-line="49" class="code-line">Border-color</h3>
 <ul>
 <li data-line="51" class="code-line"><strong>border-color</strong> is utilized to set the color of the border</li>
 <li data-line="52" class="code-line">Default color is the element's text color</li>
 </ul>
-<h3 id="border-radius-2" data-line="54" class="code-line">Border-radius</h3>
+<h3 id="border-radius-1" data-line="54" class="code-line">Border-radius</h3>
 <ul>
 <li data-line="56" class="code-line">
 <p data-line="56" class="code-line"><strong>border-radius</strong> is used to set rounded corners in the border</p>
@@ -106,4 +106,265 @@
 <p class="border">
     Border example with border-radius, border-width, border style, and border-color
 </p>
+<h2 id="margin-1" data-line="76" class="code-line">Margin</h2>
+<ul>
+<li data-line="78" class="code-line">A CSS property that is used to add space around an element</li>
+<li data-line="79" class="code-line">Margin adds space outside an element border</li>
+<li data-line="80" class="code-line">Padding on the other hand adds space inside an element border</li>
+<li data-line="81" class="code-line">Margin have 4 properties that can be specified:
+<ol>
+<li data-line="82" class="code-line">margin-top</li>
+<li data-line="83" class="code-line">margin-right</li>
+<li data-line="84" class="code-line">margin-bottom</li>
+<li data-line="85" class="code-line">margin-left</li>
+</ol>
+</li>
+<li data-line="86" class="code-line">margin is typically utilized to add small amounts of spacing or for centering elements by using &quot;auto&quot;
+<ul>
+<li data-line="87" class="code-line">Ex.</li>
+</ul>
+<pre><code data-line="88" class="code-line"><code><div>.class {
+    margin: 0 auto
+}
+</div></code></code></pre>
+</li>
+<li data-line="93" class="code-line">This makes the top and bottom margin 0 px while letting the browser automatically decide the spacing of the left and right margins for the element</li>
+<li data-line="94" class="code-line">Ex.</li>
+</ul>
+<style>
+    .margin {
+        margin: 0 auto;
+        width: 300px;
+        height: 100px
+    }
+</style>
+<p class="margin">
+    Some Test for margin centering using "auto"
+</p>
+<ul>
+<li data-line="108" class="code-line">Margin is also allowed to have negative values on the properties which makes it extend the opposite way</li>
+</ul>
+<h2 id="padding-1" data-line="110" class="code-line">Padding</h2>
+<ul>
+<li data-line="112" class="code-line">Padding is the same as margin except that it adds space to the area inside the element border</li>
+<li data-line="113" class="code-line">Margin adds space outside the element border</li>
+<li data-line="114" class="code-line">Padding adds space inside the element border</li>
+<li data-line="115" class="code-line">Similar to margin, it has 4 properties:
+<ol>
+<li data-line="116" class="code-line">padding-top</li>
+<li data-line="117" class="code-line">padding-right</li>
+<li data-line="118" class="code-line">padding-bottom</li>
+<li data-line="119" class="code-line">padding-left</li>
+</ol>
+</li>
+<li data-line="120" class="code-line">Ex.</li>
+</ul>
+<style>
+    .padding {
+        width: 300px;
+        height: 300px;
+        padding: 30px 30px;
+        background-color: orange;
+    }
+</style>
+<p class="padding">
+    Some text to demonstrate padding
+</p>
+<h2 id="box-sizing-1" data-line="135" class="code-line">Box Sizing</h2>
+<ul>
+<li data-line="137" class="code-line">By default, the browsers calculate width and height of an element before the padding, border, and margin</li>
+<li data-line="138" class="code-line">It gets complicated so there is a &quot;box-sizing&quot; property that allows for 2 property values:
+<ol>
+<li data-line="139" class="code-line">border-box</li>
+<li data-line="140" class="code-line">content-box</li>
+</ol>
+</li>
+<li data-line="141" class="code-line">&quot;border-box&quot; changes the box-sizing such that the width and height calculation include the padding and the border</li>
+<li data-line="142" class="code-line">Recommended to &quot;reset&quot; the CSS for every element to this setting since it is more intuitive
+<ul>
+<li data-line="143" class="code-line">Ex.</li>
+</ul>
+<pre><code data-line="144" class="code-line"><code><div>*, *::before, *::after {
+    box-sizing: border-box;
+}
+</div></code></code></pre>
+</li>
+<li data-line="149" class="code-line">Ex.</li>
+</ul>
+<style>
+    .border-box {
+        width: 300px;
+        height: 100px;
+        box-sizing: border-box;
+        background-color: pink;
+    }
+</style>
+<p class="border-box">
+    Example testing out "border-box"
+</p>
+<h2 id="display-1" data-line="164" class="code-line">Display</h2>
+<ul>
+<li data-line="166" class="code-line">&quot;Display&quot; property determines how the element is displayed by the browser</li>
+<li data-line="167" class="code-line">3 types of display elements (excluding &quot;grid&quot;, &quot;flex&quot;, &quot;table&quot;)
+<ol>
+<li data-line="168" class="code-line">block</li>
+<li data-line="169" class="code-line">inline</li>
+<li data-line="170" class="code-line">none</li>
+</ol>
+</li>
+</ul>
+<h3 id="inline-1" data-line="172" class="code-line">Inline</h3>
+<ul>
+<li data-line="174" class="code-line">With &quot;inline&quot; as the property value, the elements don't have any margin or padding applied as well as height and width</li>
+<li data-line="175" class="code-line">It appears &quot;inline&quot; with the elements that precede and come after it</li>
+</ul>
+<h3 id="block-1" data-line="177" class="code-line">Block</h3>
+<ul>
+<li data-line="179" class="code-line">Some elements are automatically set as &quot;block&quot; elements by the browser</li>
+<li data-line="180" class="code-line">Block elements are those that take up 100% of the width of the screen</li>
+<li data-line="181" class="code-line">They also stack on top of each other when placed one after another</li>
+<li data-line="182" class="code-line">The width and height properties are actually utilized and can also set the margin and padding</li>
+</ul>
+<h3 id="none-1" data-line="184" class="code-line">None</h3>
+<ul>
+<li data-line="186" class="code-line">Display &quot;none&quot; hides the visibility of the element on the page</li>
+<li data-line="187" class="code-line">The element will still be in the HTML code, but will not be rendered by the browser</li>
+</ul>
+<h2 id="positioning-1" data-line="189" class="code-line">Positioning</h2>
+<ul>
+<li data-line="191" class="code-line">Property that determines where elements appear on the screen and how they appear</li>
+<li data-line="192" class="code-line">Can have 5 values:
+<ol>
+<li data-line="193" class="code-line">static</li>
+<li data-line="194" class="code-line">relative</li>
+<li data-line="195" class="code-line">absolute</li>
+<li data-line="196" class="code-line">fixed</li>
+<li data-line="197" class="code-line">sticky</li>
+</ol>
+</li>
+</ul>
+<h3 id="static-1" data-line="199" class="code-line">Static</h3>
+<ul>
+<li data-line="201" class="code-line">This is the default setting that follows the normal page structure created from and HTML document</li>
+</ul>
+<h3 id="relative-1" data-line="203" class="code-line">Relative</h3>
+<ul>
+<li data-line="205" class="code-line">Allows for positioning using 4 properties:
+<ol>
+<li data-line="206" class="code-line">top</li>
+<li data-line="207" class="code-line">left</li>
+<li data-line="208" class="code-line">right</li>
+<li data-line="209" class="code-line">bottom</li>
+</ol>
+<ul>
+<li data-line="210" class="code-line">Called offset properties tha accept a length as value</li>
+</ul>
+</li>
+<li data-line="211" class="code-line">Position relative allows for positioning the element relative to the parent element that is containing it</li>
+</ul>
+<p data-line="213" class="code-line"><img src="resources/PositionRelative.png" alt="Relative Position Image" title="Position Relative" class="loading" id="image-hash-26768887ee39a885a0dd20e72e858d11c8130154cf8594413be9dec28e4b9098"></p>
+<ul>
+<li data-line="215" class="code-line">Here we can see that the .box class (yellow) can be specified its position relative to the parent container which is the pink box</li>
+</ul>
+<h3 id="absolute-1" data-line="217" class="code-line">Absolute</h3>
+<ul>
+<li data-line="219" class="code-line">Position absolute takes the element outside of the normal HTML flow and allows for manual positioning</li>
+<li data-line="220" class="code-line">Only the (x, y) starting point is preserved
+<ul>
+<li data-line="221" class="code-line">The starting point is the starting point of the closest container that is not static</li>
+</ul>
+</li>
+</ul>
+<p data-line="223" class="code-line"><img src="resources/PositionAbsolute.png" alt="Absolute Position Image" title="Position Absolute" class="loading" id="image-hash-8c4ab07d88bfe9bf0623b52764de195bc16e375a29c3b2f24fdd664fb7b7251f"></p>
+<h3 id="fixed-1" data-line="225" class="code-line">Fixed</h3>
+<ul>
+<li data-line="227" class="code-line">Position fixed is the same as position absolute except that the starting coordinates (x, y) are always positioned relative to the window
+instead of the first non-static container</li>
+<li data-line="229" class="code-line">Also fixed elements are not affected by scrolling, they will remain on the page even if scrolling occurs</li>
+</ul>
+<h3 id="sticky-1" data-line="231" class="code-line">Sticky</h3>
+<ul>
+<li data-line="233" class="code-line">Position sticky is the same as fixed except that it stays at the top of the screen when the screen's scrolling has reached that element's scrolling point</li>
+<li data-line="234" class="code-line">This means that it will act like static until its scrolling point is reached and then act like fixed at the top of the screen if the user keeps scrolling</li>
+</ul>
+<h2 id="floating-1" data-line="236" class="code-line">Floating</h2>
+<ul>
+<li data-line="238" class="code-line">Floating allows you to remove an element from the normal page flow and used to be the old way to create &quot;modern&quot; layouts
+<ul>
+<li data-line="239" class="code-line">Kind of not utilized as much because of &quot;Grid&quot; and &quot;Flexbox&quot;</li>
+</ul>
+</li>
+<li data-line="240" class="code-line">Supports 3 values:
+<ol>
+<li data-line="241" class="code-line">left</li>
+<li data-line="242" class="code-line">right</li>
+<li data-line="243" class="code-line">none (default)</li>
+</ol>
+</li>
+<li data-line="244" class="code-line">Normally, the browser renders things like imgs and spans inline together one after another, meaning imgs will show in the middle of the text or not formatted
+<ul>
+<li data-line="245" class="code-line">Can be fixed with floats</li>
+<li data-line="246" class="code-line">Ex.
+<img src="resources/Floating.png" alt="Floating Image" title="Floating" class="loading" id="image-hash-9d156519947a914b5ed08dd7d493d3fa740b0d1fe7fd1448523f8d503fe7c033"></li>
+</ul>
+</li>
+<li data-line="248" class="code-line">Floated elements are removed from the normal flow of the page and the content flows around it</li>
+</ul>
+<h3 id="clearing-1" data-line="250" class="code-line">Clearing</h3>
+<ul>
+<li data-line="252" class="code-line">Floating multiple elements will make them just stack next to each other horizontally
+<ul>
+<li data-line="253" class="code-line">If space runs out at it will start a new line</li>
+</ul>
+</li>
+<li data-line="254" class="code-line">There is a property called &quot;clear&quot; that remedy's this and allows for horizontally floated elements to be stacked vertically</li>
+<li data-line="255" class="code-line">Ex.
+<img src="resources/Clearing.png" alt="Clearing Image" title="Clearing" class="loading" id="image-hash-77259a3c887bc95cc252d60c9758e266d44f0c5324fff7f59cb46101820a100c"></li>
+<li data-line="257" class="code-line">For clearing use:
+<ul>
+<li data-line="258" class="code-line">&quot;left&quot; to clear left floats</li>
+<li data-line="259" class="code-line">&quot;right&quot; to clear right floats</li>
+<li data-line="260" class="code-line">&quot;both&quot; to clear both left and right flaots</li>
+<li data-line="261" class="code-line">&quot;none&quot; (default)</li>
+</ul>
+</li>
+</ul>
+<h2 id="tables-1" data-line="263" class="code-line">Tables</h2>
+<ul>
+<li data-line="265" class="code-line">Tables used to be heavily utilized to create fancy page layouts but are not really utilized except for creating tables because of &quot;grid&quot; and &quot;flexbox&quot;</li>
+<li data-line="266" class="code-line">Can easily style every other row to have a different color utilizing :nth_child(odd) or :nth_child(even) selector</li>
+<li data-line="267" class="code-line">Ex.</li>
+</ul>
+<style>
+    table, th, td {
+        border: 1px solid #333;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #af47ff;
+    }
+</style>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Flavio</th>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th scope="row">Roger</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th scope="row">Syd</th>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+
 </body></html>

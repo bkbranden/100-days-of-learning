@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 4: June 23, 2020
+
+**Today's Progress**: Dove deeper into more of CSS and beefing up my foundations with CSS. Today, I reviewed over things like the display and tables. I finally understand what the use of "floats" were in respect CSS Grid and Flexbox. Also, learned exactly what the different values in positioning do and messed around with some of them.
+
+**Thoughts:** Some of the information that I review is actually very helpful and covers things that I did not know previously. Things like how floats work and what they are used for were some examples of things I didn't really understand about CSS, but have been cleared up.
+
+**Link to work:** [Today's Notes](files/Round1Learning/Level3/MoreCSS.md)
+
 ### Day 3: June 22, 2020
 
 **Today's Progress**: Finished reviewing the basics of CSS including how to add resources such as images, pseudo elements, Units, calc(), etc. and started diving into the box model of CSS
