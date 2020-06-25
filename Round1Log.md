@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 6: June 25, 2020
+
+**Today's Progress**: Today, I put the application of the CSS that was covered before into styling a form. In addition, I learned about a CSS framework called Tailwind CSS that allows for CSS styling based on what class names are given to the HTML elements. The same form was styled utilizing Tailwind.
+
+**Thoughts:** It was interesting to combine the small nuances and foundations that I learned in CSS get applied to styling a basic form and also doing so with a new framework. While this isn't the most exciting stuff, I am trying to bolster the foundations and then see how well it gets applied.
+
+**Link to work:** [Today's Notes](files/Round1Learning/Level3/MoreCSS.md)
+
+
 ### Day 5: June 24, 2020
 
 **Today's Progress**: Covered more breadth of CSS information and I was able to learn about something that I didn't know existed in CSS before "filters". I didn't know that there was a convenient way to add "photoshop-like" filters to elements in the DOM tree. Also, I learned about creating custom-variables in CSS as well as how CSS properly error handles.
