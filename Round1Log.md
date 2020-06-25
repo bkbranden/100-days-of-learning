@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 5: June 24, 2020
+
+**Today's Progress**: Covered more breadth of CSS information and I was able to learn about something that I didn't know existed in CSS before "filters". I didn't know that there was a convenient way to add "photoshop-like" filters to elements in the DOM tree. Also, I learned about creating custom-variables in CSS as well as how CSS properly error handles.
+
+**Thoughts:** Today I wasn't able to cover as much breadth of information as I wanted mainly because I wanted to digest the CSS information as well as I could, but for me it took some pushing through to get motivated to cover it earnestly.
+
+**Link to work:** [Today's Notes](files/Round1Learning/Level3/MoreCSS.md)
+
 ### Day 4: June 23, 2020
 
 **Today's Progress**: Dove deeper into more of CSS and beefing up my foundations with CSS. Today, I reviewed over things like the display and tables. I finally understand what the use of "floats" were in respect CSS Grid and Flexbox. Also, learned exactly what the different values in positioning do and messed around with some of them.
