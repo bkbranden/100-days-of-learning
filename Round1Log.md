@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 7: July 8th, 2020
+
+**Today's Progress**: Got a refresher on some Javascript basics and syntax fundamentals. While going over precedence rules, the idea of precedence rules really caught my attention and I went into a rabbit hole of trying to figure out how the compiler automatically generates precedence rules. In a very generalized solution, additional non-terminals are added so that higher levels of recursion are added to the parse tree so things that are higher precedence are lower depth. This lower depth makes the code generation evaluate that expression first as the code generation recurses depth-first through the parse tree which allows it to reach that higher precedence operator first.
+
+**Thoughts:** The basics of Javascript was honestly kind of dry since I knew about all of the information covered since it was basic stuff like conditionals and operators and variables. The aside in to the precedence rules was very interesting since there seemed to be an optimal way to solve the problem based on the type of parser being used. An SLR(1) parser seemed to get the job done differently by utilizing a precedence look-up table.
+
+**Link to work:** [Today's Notes](files/Round1Learning/Level4/JavascriptBasics.md)
+
 ### Day 6: June 25, 2020
 
 **Today's Progress**: Today, I put the application of the CSS that was covered before into styling a form. In addition, I learned about a CSS framework called Tailwind CSS that allows for CSS styling based on what class names are given to the HTML elements. The same form was styled utilizing Tailwind.
