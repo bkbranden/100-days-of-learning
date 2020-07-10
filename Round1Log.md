@@ -2,7 +2,7 @@
 
 ### Day 8: July 9th, 2020
 
-**Today's Progress**: Today, I learned what the basics concepts for utilizing the K-Nearest-Neighbors algorithm are. I created notes on what the situations for utilizing the K-Nearest-Neighbors are and followed a small tutorial to predict data utilizing the features and ground-truth target labels. Also, I was able to get a hands on visualization of what makes the K-Nearest-Neighbors algorithm supervised.
+**Today's Progress**: Today, I learned what the basics concepts for utilizing the K-Nearest-Neighbors algorithm are. I created notes on what the situations for utilizing the K-Nearest-Neighbors are and followed a small tutorial to predict data utilizing the features and ground-truth target labels. Also, I was able to get a hands on visualization of what makes the K-Nearest-Neighbors algorithm supervised. I learned about how to find the 2 features that create the most difference in the classification process of the KNN algorithm and how to visualize it in a 2D scatter plot.
 
 **Thoughts:** I decided to switch things up and learn about machine learning. I have taken classes on data science and machine learning topics, but the information just never stuck with me. I am going to learn ML topics every other day and the Javascript review and advanced information on the other days at 2 hour increments because I think that the schedule will maximize what I gain out of the learning as well as keep things refreshing and repetitious. Visualizing the K-Nearest-Neighbors algorithm (even on a given dataset) was something I have never done before and was super interesting. 
 
