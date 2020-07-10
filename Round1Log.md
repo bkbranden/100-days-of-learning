@@ -6,7 +6,7 @@
 
 **Thoughts:** I decided to switch things up and learn about machine learning. I have taken classes on data science and machine learning topics, but the information just never stuck with me. I am going to learn ML topics every other day and the Javascript review and advanced information on the other days at 2 hour increments because I think that the schedule will maximize what I gain out of the learning as well as keep things refreshing and repetitious. Visualizing the K-Nearest-Neighbors algorithm (even on a given dataset) was something I have never done before and was super interesting. 
 
-**Link to work:** [Tutorial Followed](https://www.freecodecamp.org/news/)
+**Link to work:** [Tutorial Followed](https://www.freecodecamp.org/news/how-to-build-and-train-k-nearest-neighbors-ml-models-in-python/)
 
 ### Day 7: July 8th, 2020
 
