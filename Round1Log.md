@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 8: July 9th, 2020
+
+**Today's Progress**: Today, I learned what the basics concepts for utilizing the K-Nearest-Neighbors algorithm are. I created notes on what the situations for utilizing the K-Nearest-Neighbors are and followed a small tutorial to predict data utilizing the features and ground-truth target labels. Also, I was able to get a hands on visualization of what makes the K-Nearest-Neighbors algorithm supervised.
+
+**Thoughts:** I decided to switch things up and learn about machine learning. I have taken classes on data science and machine learning topics, but the information just never stuck with me. I am going to learn ML topics every other day and the Javascript review and advanced information on the other days at 2 hour increments because I think that the schedule will maximize what I gain out of the learning as well as keep things refreshing and repetitious. Visualizing the K-Nearest-Neighbors algorithm (even on a given dataset) was something I have never done before and was super interesting. 
+
+**Link to work:** [Tutorial Followed](https://www.freecodecamp.org/news/)
+
 ### Day 7: July 8th, 2020
 
 **Today's Progress**: Got a refresher on some Javascript basics and syntax fundamentals. While going over precedence rules, the idea of precedence rules really caught my attention and I went into a rabbit hole of trying to figure out how the compiler automatically generates precedence rules. In a very generalized solution, additional non-terminals are added so that higher levels of recursion are added to the parse tree so things that are higher precedence are lower depth. This lower depth makes the code generation evaluate that expression first as the code generation recurses depth-first through the parse tree which allows it to reach that higher precedence operator first.
