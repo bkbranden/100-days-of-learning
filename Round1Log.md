@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 9: July 10th, 2020
+
+**Today's Progress**: Today learned about basic primitive types in Javascript as well as some functionality within Number and String objects that can be useful. Also, I reviewed basic information on functions, arrow functions, nested functions, and recursion.
+
+**Thoughts:** Covering basic Javascript syntax was refreshing and it was cool to see things that I didn't know about such as the tons of methods provided in the Number and String objects and the concept of Hoisting.
+
+**Link to work:** [Today's Notes](files/Round1Learning/Level4/Functions.md)
+
 ### Day 8: July 9th, 2020
 
 **Today's Progress**: Today, I learned what the basics concepts for utilizing the K-Nearest-Neighbors algorithm are. I created notes on what the situations for utilizing the K-Nearest-Neighbors are and followed a small tutorial to predict data utilizing the features and ground-truth target labels. Also, I was able to get a hands on visualization of what makes the K-Nearest-Neighbors algorithm supervised. I learned about how to find the 2 features that create the most difference in the classification process of the KNN algorithm and how to visualize it in a 2D scatter plot.
