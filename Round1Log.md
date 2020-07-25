@@ -4,7 +4,7 @@
 
 **Today's Progress**: Today learned about basic primitive types in Javascript as well as some functionality within Number and String objects that can be useful. Also, I reviewed basic information on functions, arrow functions, nested functions, and recursion.
 
-**Thoughts:** Covering basic Javascript syntax was refreshing and it was cool to see things that I didn't know about such as the tons of methods provided in the Number and String objects and the concept of Hoisting that should provide useful just to know that they exist.
+**Thoughts:** Covering basic Javascript syntax was refreshing and it was cool to see things that I didn't know about such as the tons of methods provided in the Number and String objects and the concept of Hoisting that should provide useful just to know that they exist. 
 
 **Link to work:** [Today's Notes](files/Round1Learning/Level4/Functions.md)
 
