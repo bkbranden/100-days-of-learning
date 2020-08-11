@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 10, August 11th, 2020
+
+**Today's Progress** [Link to blog post of what I learned](https://dev.to/bkbranden/til-spread-and-copying-objects-in-javascript-1i7j)
+
 ### Day 9: July 10th, 2020
 
 **Today's Progress**: Today learned about basic primitive types in Javascript as well as some functionality within Number and String objects that can be useful. Also, I reviewed basic information on functions, arrow functions, nested functions, and recursion.
